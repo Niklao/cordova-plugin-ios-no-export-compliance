@@ -9,12 +9,8 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="*-Info.plist" parent="CFBundleURLTypes">
-            <array>
-                <dict>
-                    <key>ITSAppUsesNonExemptEncryption</key>
-                    <false/>
-                </dict>
-            </array>
+            <key>ITSAppUsesNonExemptEncryption</key>
+            <false/>
         </config-file>
     </platform>
 </plugin>
